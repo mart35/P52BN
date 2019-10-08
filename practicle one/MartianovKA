@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Language Basics</title>
+    </head> 
+   <script>
+    let anton = (89 + 120 + 103) / 3;
+    let ivan = (116 + 94 + 123) / 3;
+    let mariya = (97 + 134 + 105) / 3;
+    name = "Мария";
+    if (anton > ivan && anton > mariya) {
+        name = "Антон";
+    } else if (anton < ivan && ivan > mariya) {
+           name = "Иван";
+    }
+    alert(name + " набрал(а) больше очков");
+  </script>
+</html>
